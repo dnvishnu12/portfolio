@@ -1,0 +1,233 @@
+/* Background styles */
+
+@import url('https://fonts.googleapis.com/css?family=Nokora');
+body {
+    padding-left: 5%;
+    background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(78,9,9,1) 0%, rgba(0,0,0,1) 45%);
+}
+
+.dp{
+  
+    width: 15%;
+    padding-right: 10%;
+   
+}
+.profile{
+  display: flex;
+  
+}
+p{
+    font-family: Nokora, serif;
+    font-weight: bold;
+    
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+  
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    
+}
+#name{
+    margin-left: 3%;
+}
+.summary {
+    font-family: verdana;
+    text-align: center;
+    font-size: larger;
+    font-stretch: expanded;
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0.1); /* Adjust the alpha value for transparency */
+    text-shadow: rgba(226, 166, 166, 0) 2px 2px 2px;
+    width: 50%;
+    height: 30%;
+    margin-top: -20%;
+   margin-left: 30%;
+    border-radius: 20px; /* Adjust this value for circular corners */
+    padding: 10px;
+    word-spacing: 5px;
+
+}
+.dn{
+    margin-left: 5%;
+    flex-direction: column;
+}
+
+a.social-link{
+    text-decoration: none; /* Remove underline */
+    color: beige; /* Set link text color */
+    border:1px groove grey; /* Set border styles */
+    
+    padding: 3px 10px; /* Add some padding for visual appeal */
+    display: inline-block; /* Make sure the link doesn't stretch horizontally */
+    border-radius: 8px; 
+}
+
+
+
+.scl{
+    
+    margin-left: 3%;
+    
+   display: flex;
+
+    
+}
+
+.scl .social-link i {
+    margin-top: 1%;
+    display: inline-block; 
+    vertical-align: middle; 
+}
+#a{
+    margin-top: -2%;
+    margin-left: 7%;
+    padding-top: 2%;
+}
+
+#b{
+    margin-top: -1.78%;
+    /* padding-top: -20%; */
+    margin-left: 13.8%;
+    
+}
+#c{
+    padding-top: 1%;
+    margin-left: 9%;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.0);
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 25px;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    position: relative;
+}
+
+/* ... (your existing CSS code) ... */
+
+.dropdown {
+    position: relative;
+    display: inline-block; /* Make sure the dropdown trigger takes the width of its content */
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 1px;
+    list-style-type: none;
+    
+    top: 100%; /* Position the dropdown below the trigger */
+    left: 0; /* Align the dropdown with the left edge of the trigger */
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.dropdown-list a {
+    text-decoration: none;
+    color: cornsilk;
+    display: block;
+    padding: 5px;
+}
+
+/* ... (the rest of your CSS code) ... */
+
+
+/* Style the resume link */
+.navbar-item[href="https://drive.google.com/file/d/1oVToYzhxXqG5qoUWW1cW7fzaUmM4y8km/view?usp=sharing"]::after {
+    /* Right arrow symbol */
+}
+
+.navbar-item[href="https://drive.google.com/file/d/1oVToYzhxXqG5qoUWW1cW7fzaUmM4y8km/view?usp=sharing"]:hover::after {
+    color: #ff6347; /* Change arrow color on hover */
+}
+.here{
+    text-decoration: none;
+    color: azure;
+    text-decoration-line: underline;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.we{
+    padding-left: 8%;
+    
+    color: rgb(255, 255, 255);
+  
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+#exp{
+    font-family: Nokora, serif;
+    font-weight: lighter;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+  
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+#company{
+    font-family: system-ui;
+    font-weight: 400;
+   
+}
+.points{
+    padding-top: 1px;
+    font-family: system-ui;
+    font-weight: 300;
+}
+.sei{
+    margin-top: 1%;
+    font-family: "Gill Sans", sans-serif;
+    font-size: larger;
+}
+
+.tech{
+    background-color: rgb(128, 128, 128); /* Adjust the alpha value for transparency */
+    text-shadow: rgba(226, 166, 166, 0) 2px 2px 2px;
+    color: whitesmoke;
+    margin-top: -17%;
+margin-left: 40%;
+    height: fit-content;
+   width: 30%;
+    text-align: left;
+    font-family: verdana;
+  
+    font-size: larger;
+   
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0.1); /* Adjust the alpha value for transparency */
+    text-shadow: rgba(226, 166, 166, 0) 2px 2px 2px;
+  
+    border-radius: 20px; /* Adjust this value for circular corners */
+    padding: 10px;
+}
+.sk{
+  
+    margin-top: -5px;
+    font-family: Nokora, serif;
+    font-weight: lighter;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+  
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+.sp{
+    
+   
+
+
+
+    margin-left: 1%;
+    padding-top: 1px;
+    font-family: system-ui;
+    font-weight: 300;
+}
