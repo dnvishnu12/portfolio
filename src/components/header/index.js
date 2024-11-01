@@ -8,7 +8,6 @@ import Contact from "../contact";
 const navigation = [
   { name: "Projects", href: "#projects" },
   { name: "Highlights", href: "#highlights" },
-  { name: "Skills", href: "#skills" },
   { name: "Info", href: "#info" },
 ];
 
@@ -128,7 +127,8 @@ export default function Header() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="https://drive.google.com/file/d/10htbFid3xzv82nQaRyM6wBvUyQFRsRD1/view?usp=sharing"
+                target="_blank"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Resume
