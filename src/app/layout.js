@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
           type="image/png"
           href="https://e7.pngegg.com/pngimages/471/436/png-clipart-asiatic-peafowl-feather-bird-peacock-feather-peacock-feather-watercolor-painting-painted.png"
         />
+        <meta name="google-site-verification" content="6IRQehazoMz1AGperqrebzUxl-YP_2-YLW7udzGNf6k" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
