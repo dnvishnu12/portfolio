@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://dnvishnu.netlify.app
-
-# Sitemaps
-Sitemap: https://dnvishnu.netlify.app/sitemap.xml
